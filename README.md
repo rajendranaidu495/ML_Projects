@@ -1,11 +1,12 @@
-# Projects
+# PROJECTS
 
+1. [Healthcare provider Fraud Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/HealthCare_Provider_Fraud_Detection)
+2. [Heart Disease Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/Heart%20Disease%20detection)
+3. [Robust Sentiment Analysis on Twitter feeds](https://github.com/rajendranaidu495/ANLY699Project/blob/master/ANLY699%20thesis%20final_RajendraNaiduMannam.pdf)
 
-### HEALTHCARE PROVIDER FRAUD DETECTION 
+## 1. Healthcare provider Fraud Detection
 
-1. [Healthcare provider Fraud Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/HealthCare_Provider_Fraud_Detection): Healthcare provider Fraud Detection
-
-### Problem Statement
+#### Problem Statement
 The goal of this project is to " predict the potentially fraudulent providers " based on the claims filed by them.along with this, we will also discover important variables helpful in detecting the behaviour of potentially fraud providers. further, we will study fraudulent patterns in the provider's claims to understand the future behaviour of providers.
 
 #### Introduction to the Dataset
@@ -22,6 +23,54 @@ This data provides details about the claims filed for those patients who visit h
 #### C) Beneficiary Details Data
 
 This data contains beneficiary KYC details like health conditions,regioregion they belong to etc.
+
+### Exploratory Data Analysis
+
+### Feature Engineering 
+
+### Data Preprocessing 
+
+### Standardization 
+
+### Train-Test Validation split
+
+### Model Building 
+
+### Model Prediction
+
+### Model Evalution 
+
+### Feature Importance 
+
+### Conclusion
+
+
+## 2. Heart Disease Detection
+
+### Exploratory Data Analysis
+
+### Feature Engineering 
+
+### Data Preprocessing 
+
+### Standardization 
+
+### Train-Test Validation split
+
+### Model Building 
+
+### Model Prediction
+
+### Model Evalution 
+
+### Feature Importance 
+
+### Conclusion
+
+
+
+## 3. Robust Sentiment Analysis on Twitter feeds 
+[Robust Sentiment Analysis on Twitter feeds](https://github.com/rajendranaidu495/ANLY699Project/blob/master/ANLY699%20thesis%20final_RajendraNaiduMannam.pdf)
 ## API Reference
 
 #### Get all items
@@ -56,7 +105,7 @@ Any additional information goes here
   
 ## Authors
 
-- [@katherinepeterson](https://www.github.com/octokatherine)
+- [@RajendraMannam](https://github.com/rajendranaidu495)
 
   
 ## Demo
