@@ -25,44 +25,42 @@ This data provides details about the claims filed for those patients who visit h
 This data contains beneficiary KYC details like health conditions,regioregion they belong to etc.
 
 ### Data Analysis:
-understand the 4 datasets which are ,,, identify the missing values 
-perform the Exploratory Data Analysis to 
+Understand the features in all 4 datasets and identify the missing values. derived new features like age and AdmitForDays to fill the missing values based on scenario.
 
-### Feature Engineering 
-Create new features form combination of a exsiting feature 
-derive Average features grouped according to columns of datasets.
-we can use certain methods to identify clues of fraud and abuse. One such simple method is 'Grouping based on Similarity'. In this method, we basically group all the records by the ProcedureCodes, DiagnosisCodes,Provider.
-Average Features based on grouping variables. Average features grouped by Provider
+Merged all sub datasets into one big Datasets to perform the Exploratory Data Analysis. 
+Used Matplotlib and seaborn to plot graphs based on potential fraud class vs non fradulent class where the proportion of fradulent claim transactions are more compared to non fraud providers.
+So i have deep drive into all other features such as number of claim transactions and amounts involved per - Beneficiary | Beneficiary + Physician |Physician | Diagnosis | Procedure etc
+PLot the frequencies of Statewise beneficiaries and race-wise beneficiaries where more than 80% beneficiaries are of same race which is Race 1 which means Maximum population in the dataset originated from same race. 
+plot the Top-10 Procedures invloved in Healthcare Fraud and Top-20 Attending Physicians invloved in Healthcare Fraud. 
+we see that occurance of fraud cases is more frequent in lower age groups(30-70 years) compared to higher age groups(70+ years).Age is one of the important feature for differentiating between fraud abd non fraud behaviour.
 
-Average Feature based on grouping based on combinations of different variables.
+Create new features from combining the exsiting feature.
+Used simple method that is 'Grouping based on Similarity'. In this method, I basically group all the records by the ProcedureCodes, DiagnosisCodes,Provider.
+take the Average Features based on grouping variables such as Average features grouped by Provider, Average Feature based on grouping based on combinations of different variables, etc.
 
+Create dummies to convert categorrical features into numeric. 
+Applied StandardScaler to transform values from its z form to mean 0 and scales the data to unit variance.  
 
-### Data Preprocessing 
+Since data is unblanced, i have split the train and test data using stratify method. 
 
-### Standardization 
-
-### Train-Test Validation split
-
-### Model Building and prediction
-Appiled multiple machine learning Models such as LogisticRegression, Support vector machine, Adaboosting, Decision tree, 
-GradientBoosting, xGBoosting. 
+### Models:
+Appiled multiple machine learning Models which are LogisticRegression, Support vector machine, Adaboosting, Decision tree, 
+GradientBoosting, xGBoosting, Random Forest.
 
 ### Model Evalution 
-we have used precision, recall, f1- scores
+Precision, recall, f1- scores, ROC.
 
 ### Feature Importance 
 Studied behaviour of Providers and found following important features impactful in predicting Fraud/NonFraud are folowing:
 
 1) PerProviderAvg_InscClaimAmtReimbursed( Importance: 8%)
-
 2) InscClaimAmtReimbursed (Importance: 7%)
-
 3) PerAttendingPhysicianAvg_InscClaimAmtReimbursed (Importance: 7%)
-
 4) PerOperatingPhysicianAvg_InscClaimAmtReimbursed (Importance: 6%)
-
 5) PerClmAdmitDiagnosisCodeAvg_InscClaimAmtReimbursed (Importance: 4%)
 
+### Conclusion: 
+Logistic regression model is performing better compared to other models. LR model consistentently performed with ~0.90 Accuracy, ~0.80 AUROC score.
 
 ## 2. Heart Disease Detection
 
