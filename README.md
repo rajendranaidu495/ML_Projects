@@ -24,9 +24,18 @@ This data provides details about the claims filed for those patients who visit h
 
 This data contains beneficiary KYC details like health conditions,regioregion they belong to etc.
 
-### Exploratory Data Analysis
+### Data Analysis:
+understand the 4 datasets which are ,,, identify the missing values 
+perform the Exploratory Data Analysis to 
 
 ### Feature Engineering 
+Create new features form combination of a exsiting feature 
+derive Average features grouped according to columns of datasets.
+we can use certain methods to identify clues of fraud and abuse. One such simple method is 'Grouping based on Similarity'. In this method, we basically group all the records by the ProcedureCodes, DiagnosisCodes,Provider.
+Average Features based on grouping variables. Average features grouped by Provider
+
+Average Feature based on grouping based on combinations of different variables.
+
 
 ### Data Preprocessing 
 
@@ -34,89 +43,36 @@ This data contains beneficiary KYC details like health conditions,regioregion th
 
 ### Train-Test Validation split
 
-### Model Building 
-
-### Model Prediction
+### Model Building and prediction
+Appiled multiple machine learning Models such as LogisticRegression, Support vector machine, Adaboosting, Decision tree, 
+GradientBoosting, xGBoosting. 
 
 ### Model Evalution 
+we have used precision, recall, f1- scores
 
 ### Feature Importance 
+Studied behaviour of Providers and found following important features impactful in predicting Fraud/NonFraud are folowing:
 
-### Conclusion
+1) PerProviderAvg_InscClaimAmtReimbursed( Importance: 8%)
+
+2) InscClaimAmtReimbursed (Importance: 7%)
+
+3) PerAttendingPhysicianAvg_InscClaimAmtReimbursed (Importance: 7%)
+
+4) PerOperatingPhysicianAvg_InscClaimAmtReimbursed (Importance: 6%)
+
+5) PerClmAdmitDiagnosisCodeAvg_InscClaimAmtReimbursed (Importance: 4%)
 
 
 ## 2. Heart Disease Detection
 
-### Exploratory Data Analysis
-
-### Feature Engineering 
-
-### Data Preprocessing 
-
-### Standardization 
-
-### Train-Test Validation split
-
-### Model Building 
-
-### Model Prediction
-
-### Model Evalution 
-
-### Feature Importance 
-
-### Conclusion
-
+[Heart Disease Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/Heart%20Disease%20detection)
 
 
 ## 3. Robust Sentiment Analysis on Twitter feeds 
 [Robust Sentiment Analysis on Twitter feeds](https://github.com/rajendranaidu495/ANLY699Project/blob/master/ANLY699%20thesis%20final_RajendraNaiduMannam.pdf)
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
-  
-## Appendix
-
-Any additional information goes here
-
-  
-## Authors
+## Author
 
 - [@RajendraMannam](https://github.com/rajendranaidu495)
-
-  
-## Demo
-
-Insert gif or link to demo
-
-  
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
   
