@@ -1,8 +1,8 @@
 # PROJECTS
 
 1. [Healthcare provider Fraud Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/HealthCare_Provider_Fraud_Detection)
-2. [Heart Disease Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/Heart%20Disease%20detection)
-3. [Robust Sentiment Analysis on Twitter feeds](https://github.com/rajendranaidu495/ANLY699Project/blob/master/ANLY699%20thesis%20final_RajendraNaiduMannam.pdf)
+2. [Heart Disease Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/Heart_Disease_Detection)
+3. [Robust Sentiment Analysis on Twitter feeds](https://github.com/rajendranaidu495/ML_Projects/tree/main/Robust_Sentiment_Analysis)
 
 ## 1. Healthcare provider Fraud Detection
 
@@ -64,11 +64,11 @@ Logistic regression model is performing better compared to other models. LR mode
 
 ## 2. Heart Disease Detection
 
-[Heart Disease Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/Heart%20Disease%20detection)
-
+[Heart Disease Detection](https://github.com/rajendranaidu495/ML_Projects/tree/main/Heart_Disease_Detection)
 
 ## 3. Robust Sentiment Analysis on Twitter feeds 
-[Robust Sentiment Analysis on Twitter feeds](https://github.com/rajendranaidu495/ANLY699Project/blob/master/ANLY699%20thesis%20final_RajendraNaiduMannam.pdf)
+[Robust Sentiment Analysis on Twitter feeds](https://github.com/rajendranaidu495/ML_Projects/tree/main/Robust_Sentiment_Analysis)
+
 ## Author
 
 - [@RajendraMannam](https://github.com/rajendranaidu495)
